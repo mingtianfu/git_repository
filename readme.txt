@@ -18,6 +18,7 @@ git log --pretty=oneline ²é¿´Ìá½»ÈÕÖ¾£¬¼ò»¯°æ
 git reset --hard HEAD^ »ØÍËµ½ÉÏÒ»¸ö°æ±¾£¬ÉÏÒ»¸ö°æ±¾¾ÍÊÇHEAD^£¬ÉÏÉÏÒ»¸ö°æ±¾¾ÍÊÇHEAD^^£¬µ±È»ÍùÉÏ100¸ö°æ±¾Ğ´100¸ö^±È½ÏÈİÒ×Êı²»¹ıÀ´£¬ËùÒÔĞ´³ÉHEAD~100¡£
 git reflog ÓÃÀ´¼ÇÂ¼ÄãµÄÃ¿Ò»´ÎÃüÁî
 
+cat readme.txt ²é¿´ÎÄ¼ş
 
 ĞŞ¸ÄÁËÎÄ¼ş git addÖ»»á°Ñµ±Ç°µÄĞŞ¸ÄÌí¼Óµ½Ôİ´æÇø£¬Ö®ºóĞŞ¸ÄµÄÃ¿´ÎĞŞ¸Ä¶¼Òªgit add£¬git commit²Å»áÌá½»Ã¿´ÎĞŞ¸ÄµÄ 
 
@@ -34,3 +35,17 @@ git rm readme.txtÓÃÓÚÉ¾³ıÒ»¸öÎÄ¼ş¡£Èç¹ûÒ»¸öÎÄ¼şÒÑ¾­±»Ìá½»µ½°æ±¾¿â£¬ÄÇÃ´ÄãÓÀÔ¶²»Ó
 
 
 Creating a new branch is quick.
+
+Git¹ÄÀø´óÁ¿Ê¹ÓÃ·ÖÖ§£º
+
+²é¿´·ÖÖ§£ºgit branch
+
+´´½¨·ÖÖ§£ºgit branch <name>
+
+ÇĞ»»·ÖÖ§£ºgit checkout <name>
+
+´´½¨+ÇĞ»»·ÖÖ§£ºgit checkout -b <name>
+
+ºÏ²¢Ä³·ÖÖ§µ½µ±Ç°·ÖÖ§£ºgit merge <name>
+
+É¾³ı·ÖÖ§£ºgit branch -d <name>

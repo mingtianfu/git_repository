@@ -31,3 +31,6 @@ git checkout -- readme.txt意思就是，把readme.txt文件在工作区的修改全部撤销，这里
 
 
 git rm readme.txt用于删除一个文件。如果一个文件已经被提交到版本库，那么你永远不用担心误删，但是要小心，你只能 git checkout -- readme.txt 恢复文件到最新版本，你会丢失最近一次提交后你修改的内容。
+
+
+Creating a new branch is quick.
